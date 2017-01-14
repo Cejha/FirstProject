@@ -6,8 +6,10 @@ def myFunc(a,b):
     return arrreturn
 
 if __name__ == "__main__":
-	print("Starting main...")
-	a = 3
-	b = 4
-	arr = myFunc(a,b)
-	print(arr)
+    print("Starting main...")
+    a = 3
+    b = 4
+    arr = myFunc(a,b)
+    print(arr)
+    arr2 = myFunc(5,2)
+    print(arr2)
